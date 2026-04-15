@@ -16,9 +16,9 @@
 
 对应文件：
 
-- [engine.py](/Users/bytedance/Desktop/code/trader/simple_trader/engine.py)
-- [strategy.py](/Users/bytedance/Desktop/code/trader/simple_trader/strategy.py)
-- [run_demo.py](/Users/bytedance/Desktop/code/trader/simple_trader/run_demo.py)
+- `engine.py`
+- `strategy.py`
+- `run_demo.py`
 
 能力：
 
@@ -38,10 +38,10 @@
 
 对应文件：
 
-- [futures.py](/Users/bytedance/Desktop/code/trader/simple_trader/futures.py)
-- [futures_strategy.py](/Users/bytedance/Desktop/code/trader/simple_trader/futures_strategy.py)
-- [data.py](/Users/bytedance/Desktop/code/trader/simple_trader/data.py)
-- [run_futures_demo.py](/Users/bytedance/Desktop/code/trader/simple_trader/run_futures_demo.py)
+- `futures.py`
+- `futures_strategy.py`
+- `data.py`
+- `run_futures_demo.py`
 
 能力：
 
@@ -66,10 +66,10 @@
 
 对应文件：
 
-- [portfolio.py](/Users/bytedance/Desktop/code/trader/simple_trader/portfolio.py)
-- [run_portfolio_demo.py](/Users/bytedance/Desktop/code/trader/simple_trader/run_portfolio_demo.py)
-- [sizing.py](/Users/bytedance/Desktop/code/trader/simple_trader/sizing.py)
-- [risk.py](/Users/bytedance/Desktop/code/trader/simple_trader/risk.py)
+- `portfolio.py`
+- `run_portfolio_demo.py`
+- `sizing.py`
+- `risk.py`
 
 能力：
 

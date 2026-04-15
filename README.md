@@ -1,4 +1,13 @@
-# 极简量化交易设计
+# simple_trader
+
+一个以“容易看懂、逐步长大”为目标的极简量化交易仓库。
+
+`simple_trader` 故意不接 CTP、不接数据库、不接 Web，只保留量化交易里最核心的几层，方便从回测一路长到仿真和未来的实盘接口。
+
+## What It Is
+
+`simple_trader` is a small educational trading project focused on readability first.
+It starts from a minimal backtest loop, then gradually grows into a futures-style backtest, a portfolio engine, and a first paper-trading broker.
 
 这套代码故意不接 CTP、不接数据库、不接 Web，只保留量化交易里最核心的四层：
 
@@ -69,10 +78,10 @@ python -m simple_trader.run_futures_demo
 
 对应文件：
 
-- [futures.py](/Users/bytedance/Desktop/code/trader/simple_trader/futures.py)
-- [futures_strategy.py](/Users/bytedance/Desktop/code/trader/simple_trader/futures_strategy.py)
-- [data.py](/Users/bytedance/Desktop/code/trader/simple_trader/data.py)
-- [run_futures_demo.py](/Users/bytedance/Desktop/code/trader/simple_trader/run_futures_demo.py)
+- `futures.py`
+- `futures_strategy.py`
+- `data.py`
+- `run_futures_demo.py`
 
 ## 多合约组合版
 
@@ -97,9 +106,9 @@ python -m simple_trader.run_portfolio_demo
 
 为了以后从回测平滑走到仿真和实盘，现在已经把 broker 角色单独拎出来了：
 
-- [brokers.py](/Users/bytedance/Desktop/code/trader/simple_trader/brokers.py)
+- `brokers.py`
   定义了 `BacktestBroker`、`PaperBroker`、`LiveBroker` 三种角色骨架
-- [execution.py](/Users/bytedance/Desktop/code/trader/simple_trader/execution.py)
+- `execution.py`
   定义了统一的 `OrderIntent` 和 `ExecutionReport`
 
 当前状态是：
